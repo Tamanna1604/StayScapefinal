@@ -36,7 +36,7 @@ export const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 z-10 flex w-screen justify-center bg-white py-4 ${
+      className={`fixed top-0 z-10 flex w-screen justify-center bg-purple-100 py-4 ${
         hasShadow ? 'shadow-md' : ''
       }`}
     >
@@ -48,12 +48,12 @@ export const Header = () => {
         <a href="/" className="flex items-center gap-1">
           <img
             className="h-8 w-8 md:h-10 md:w-10"
-            src="https://cdn-icons-png.flaticon.com/512/2111/2111320.png"
+            src="https://img.icons8.com/?size=100&id=86527&format=png&color=7950F2"
             alt=""
           />
 
-          <span className="hidden text-2xl font-bold text-red-500 md:block">
-            airbnb
+          <span className="hidden text-2xl font-bold text-purple-600 md:block">
+            StayScape
           </span>
         </a>
 
