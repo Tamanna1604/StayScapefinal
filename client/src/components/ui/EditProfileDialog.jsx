@@ -84,7 +84,7 @@ const EditProfileDialog = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className="bg-blue-600 hover:bg-blue-600 ">
+        <Button className="bg-purple-500 hover:bg-purple-600 ">
           <PenSquare className="mr-2 h-4 w-4" />
           Edit Profile
         </Button>
